@@ -11,3 +11,19 @@ for(var i = 0; i < 30; i++) {
     }
     
 }
+
+console.log('palindrone');
+
+function isPal(word) {
+    var ogWord = word;
+    if(ogWord === word.split('').reverse().join('')) {
+       console.log('yes');
+       } else {
+           console.log('no');
+       }
+}
+
+isPal('mom');
+isPal('dad');
+isPal('candy');
+isPal('Jake');
